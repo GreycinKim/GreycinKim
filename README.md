@@ -11,4 +11,4 @@
 - 📊 [HIPAA Dashboard](link) — Secure data dashboard for healthcare stats
 - 💡 [COVID Risk App](link) — AI-powered triage support app
 
-📬 Let's connect: [LinkedIn](https://linkedin.com/in/greycinkim)
+📬 Let's connect: [LinkedIn](https://linkedin.com/in/greycinKim)
