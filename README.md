@@ -1,9 +1,5 @@
 # 🎼 Greycin Kim — Data Engineering for Music & Audio Systems
 
-I design ETL pipelines, data warehouses, and analytics platforms using MIDI, MusicXML, and audio metadata as real-world datasets.
-
-*No hymns. No choir. Just music data.*
-
 ---
 
 ## 1️⃣ MIDI → Data Warehouse ETL Pipeline
@@ -21,8 +17,6 @@ I design ETL pipelines, data warehouses, and analytics platforms using MIDI, Mus
   - track/instrument separation
 - **Load** into warehouse
 
-*This is a textbook ETL system using non-traditional data.*
-
 ---
 
 ## 2️⃣ SATB / Multi-Track Voice Data Modeler (now generalized)
@@ -34,8 +28,6 @@ Parse multi-track scores into tables:
 
 | piece_id | track | pitch | duration | measure | instrument |
 |----------|-------|-------|----------|---------|------------|
-
-*Pure data modeling from complex structured files.*
 
 ---
 
@@ -51,8 +43,6 @@ Dashboards from your warehouse:
 - Instrument density
 - Song difficulty score
 
-*Shows real BI on top of engineered data.*
-
 ---
 
 ## 4️⃣ Real-Time Music Transposition API (Data Service)
@@ -62,8 +52,6 @@ Dashboards from your warehouse:
 
 API that pulls music data from DB, transforms it, returns new version.
 
-*This shows data services, not just analysis.*
-
 ---
 
 ## 5️⃣ Spotify Audio Features Ingestion Pipeline
@@ -71,14 +59,4 @@ API that pulls music data from DB, transforms it, returns new version.
 **Repo:** `spotify-audio-metadata-pipeline`  
 **Stack:** Spotify API → Python → BigQuery → BI
 
-Daily ingestion job with freshness.
-
 ---
-
-## 🧾 What These Projects Demonstrate
-
-- ETL / ELT pipeline design
-- Data modeling from complex file formats
-- Warehouse + BI analytics
-- Data APIs and microservices
-- Workflow orchestration
