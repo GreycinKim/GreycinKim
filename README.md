@@ -1,62 +1,128 @@
-# 🎼 Greycin Kim — Data Engineering for Music & Audio Systems
+# 👋 Hi, I'm Greycin Kim
+
+🎓 Senior Computer Science Student — CSU Fullerton (Graduating May 2026)  
+📊 Aspiring Data Engineer | Data Analyst | Analytics Engineer  
+⚡ Building production-style data pipelines, analytics systems, and cloud-ready data projects.
 
 ---
 
-## 1️⃣ MIDI → Data Warehouse ETL Pipeline
+## 🧠 What I Build
 
-**Repo:** `midi-etl-data-warehouse`  
-**Stack:** Python, Music21, Prefect/Airflow, PostgreSQL/BigQuery
+I like solving real-world problems using data infrastructure.
 
-### Pipeline:
-- **Extract** thousands of MIDI files (jazz, classical, pop, game music)
-- **Transform** into structured features:
-  - key
-  - tempo
-  - note density
-  - chord movement
-  - track/instrument separation
-- **Load** into warehouse
+My projects focus on:
 
----
+- 🚀 End-to-end ETL pipelines
+- 🏗 Data warehouse design (Star Schema)
+- ☁️ Cloud-based data workflows
+- 📊 Analytics dashboards & reporting
+- 🔄 Automation and data reliability
 
-## 2️⃣ SATB / Multi-Track Voice Data Modeler (now generalized)
+I focus on thinking like an engineer:
 
-**Repo:** `multitrack-music-dataset-builder`  
-**Stack:** Python, MusicXML, PostgreSQL
-
-Parse multi-track scores into tables:
-
-| piece_id | track | pitch | duration | measure | instrument |
-|----------|-------|-------|----------|---------|------------|
+**Raw Data → Pipeline → Warehouse → Business Insights**
 
 ---
 
-## 3️⃣ Music Analytics BI Dashboard
+## 🛠 Tech Stack
 
-**Repo:** `music-bi-dashboard`  
-**Stack:** Power BI / Tableau
+### Languages
+- Python
+- SQL
+- JavaScript / TypeScript
 
-Dashboards from your warehouse:
-- Key distributions
-- Tempo patterns
-- Track complexity
-- Instrument density
-- Song difficulty score
+### Data Engineering
+- PostgreSQL
+- MySQL
+- Pandas
+- Apache Airflow (learning)
+- ETL / ELT workflows
+- Data modeling (OLTP vs OLAP)
+- ACID & database constraints
+
+### Analytics / Visualization
+- Power BI
+- Tableau
+
+### Tools
+- Git / GitHub
+- Docker (learning)
+- Linux basics
+
+### Cloud (Current Focus)
+- AWS / GCP (data services)
 
 ---
 
-## 4️⃣ Real-Time Music Transposition API (Data Service)
+## 🚀 Featured Projects
 
-**Repo:** `music-transpose-api`  
-**Stack:** Flask, Redis, PostgreSQL
+### 🔹 End-to-End ETL Pipeline
+> Automated data ingestion pipeline running on scheduled workflows.
 
-API that pulls music data from DB, transforms it, returns new version.
+- Extract data from public APIs
+- Transform & clean with Python
+- Load into PostgreSQL
+- Workflow orchestration using Airflow
+- Designed for cloud deployment
+
+**Skills:** ETL, scheduling, automation, data reliability
 
 ---
 
-## 5️⃣ Spotify Audio Features Ingestion Pipeline
+### 🔹 Data Warehouse Analytics Project
+> Designed dimensional data model for analytics.
 
-**Repo:** `spotify-audio-metadata-pipeline`  
-**Stack:** Spotify API → Python → BigQuery → BI
+- Star schema design
+- Fact & dimension tables
+- Analytical SQL queries
+- Business KPIs dashboard
+
+**Skills:** Data modeling, OLAP thinking, SQL optimization
 
 ---
+
+### 🔹 Full Stack POS System (React + Flask)
+> Real-world transactional system with analytics layer.
+
+- Backend API + PostgreSQL
+- Order tracking & reporting
+- Revenue analytics dashboard
+- Role-based system design
+
+**Skills:** Database design, backend systems, production thinking
+
+---
+
+## 🎯 Current Focus (2026)
+
+- Building cloud-deployed data pipelines
+- Advanced SQL + query optimization
+- Data engineering interview prep
+- Streaming data systems (Kafka)
+
+---
+
+## 📊 Engineering Principles I Practice
+
+- Data quality validation
+- ACID transactions & constraints
+- Clean schema design
+- Reproducible pipelines
+- Documentation-first projects
+
+---
+
+## 📈 GitHub Stats
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
+
+---
+
+## 🤝 Connect
+
+- LinkedIn: [Your LinkedIn]
+- Email: [Your Email]
+
+---
+
+⭐ Always learning. Always building.
