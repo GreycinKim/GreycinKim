@@ -111,18 +111,3 @@ I focus on thinking like an engineer:
 - Documentation-first projects
 
 ---
-
-## 📈 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true)
-
----
-
-## 🤝 Connect
-
-- LinkedIn: [Your LinkedIn]
-- Email: [Your Email]
-
----
-
-⭐ Always learning. Always building.
